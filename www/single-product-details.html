@@ -1,0 +1,37 @@
+{% extends "templates/web.html" %}
+ <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+{% block title %}Essence E-commerece {% endblock %}
+{% block style %}
+<style>
+  <link rel="icon" href="img/core-img/favicon.ico">
+{% include "public/css/core-style.css" %}
+{% include "public/style.css" %}
+{% include "public/css/animate.css" %}
+{% include "public/css/classy-nav.min.css" %}
+{% include "public/css/bootstrap.min.css" %}
+{% include "public/css/owl.carousel.css" %}
+{% include "public/css/font-awesome.min.css" %}
+{% include "public/css/jquery-ui.min.css" %}
+</style>
+{% endblock %}
+
+{% block content %}
+
+  {% include "templates/includes/navbar/nav.html" %}
+ {% include "public/body.html" %}
+ {% include "public/product-detail.html" %}
+
+{% endblock %}
+{% block script %} <script>
+{% include "public/js/jquery/jquery-2.2.4.min.js" %}
+{% include "public/js/popper.min.js" %}
+{% include "public/js/bootstrap.min.js" %}
+{% include "public/js/plugins.js" %}
+{% include "public/js/classy-nav.min.js" %}
+{% include "public/js/active.js" %}
+{% endblock %}
+

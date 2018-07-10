@@ -1,0 +1,6 @@
+
+{% extends "templates/web.html" %}
+{% block content %}
+{% include "templates/includes/navbar/nav.html" %}
+{% include "templates/includes/footer/footer.html" %}
+{% endblock %}
